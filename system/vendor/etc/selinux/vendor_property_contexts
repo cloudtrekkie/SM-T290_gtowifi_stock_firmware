@@ -153,6 +153,11 @@ atd.keymaster.ready              u:object_r:check_keymaster_prop:s0
 # http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-2039
 vendor.mdlogger.Running  u:object_r:debug_mdlogger_prop:s0
 
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-2332
+atd.keybox.ready				u:object_r:atd_keybox_prop:s0
+
+# http://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-2363
+persist.radio.psensor.			u:object_r:psensor_radio_prop:s0
 
 #line 1 "vendor/samsung/system/sepolicy/BSP/qcom/sepolicy/common/property_contexts"
 # http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/O_review_request/view/22964077
@@ -192,7 +197,7 @@ ro.boot.chipid                   u:object_r:vendor_system_prop:s0
 ro.mg_factory_mode               u:object_r:factroy_prop:s0
 
 ro.boot.dram.info                u:object_r:factroy_prop:s0
-
+persist.sys.fp.vendor            u:object_r:factroy_prop:s0
 #line 1 "device/qcom/sepolicy/vendor/common/property_contexts"
 # Copyright (c) 2015-2016 Dolby Laboratories, Inc. All rights reserved.
 #

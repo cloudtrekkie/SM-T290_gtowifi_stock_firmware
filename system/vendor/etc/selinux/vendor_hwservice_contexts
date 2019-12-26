@@ -37,6 +37,11 @@ vendor.samsung.hardware.bluetooth.a2dpOffload::IA2dpOffload		u:object_r:hal_blue
 vendor.samsung.security.vaultkeeper_server::Ivaultkeeper_server     u:object_r:hal_vaultkeeper_server_hwservice:s0
 vendor.samsung.hardware.sbtvdtuner::ISBTVDTuner                    u:object_r:hal_sbtvd_hwservice:s0
 vendor.samsung.system.snap.hidl::ISnap						u:object_r:snap_hwservice:s0	
+com.fingerprints.extension::IFingerprintEngineering             u:object_r:hal_fingerprint_hwservice:s0
+com.fingerprints.extension::IFingerprintSensorTest              u:object_r:hal_fingerprint_hwservice:s0
+com.fingerprints.extension::IFingerprintNavigation              u:object_r:hal_fingerprint_hwservice:s0
+vendor.egistec.hardware.fingerprint::IBiometricsFingerprintRbs  u:object_r:hal_fingerprint_hwservice:s0
+vendor.fpsensor.hardware.fpsensorhidlsvc::IFpsensorHidlSvc      u:object_r:fp_ext_svc2_service:s0
 interfaces.factoryInterface::IFactoryInterface  u:object_r:factory_interface_hwservice:s0
 interfaces.factoryAta::IFactoryAta              u:object_r:factory_interface_hwservice:s0
 interfaces.customNvService::ICustomNv           u:object_r:factory_interface_hwservice:s0
@@ -107,3 +112,4 @@ vendor.qti.hardware.mlshal::IMlsDap                          u:object_r:hal_mirr
 vendor.qti.hardware.mlshal::IMlsVnc                          u:object_r:hal_mirrorlink_hwservice:s0
 vendor.qti.hardware.wifi.wifilearner::IWifiStats             u:object_r:hal_wifilearner_hwservice:s0
 vendor.qti.hardware.wifi.wifichip::IWifiChipVendor             u:object_r:hal_wifi_hwservice:s0
+vendor.microtrust.hardware.ifaa::IIFAADevice		     u:object_r:hal_fingerprint_hwservice:s0

@@ -1,8 +1,8 @@
 
 ro.product.first_api_level=28
-ro.vendor.build.date=Fri Dec 6 23:16:55 KST 2019
-ro.vendor.build.date.utc=1575641815
-ro.vendor.build.fingerprint=samsung/gtowifixx/gtowifi:9/PPR1.180610.011/T290XXU2ASL4:user/release-keys
+ro.vendor.build.date=Mon Dec 9 21:17:09 KST 2019
+ro.vendor.build.date.utc=1575893829
+ro.vendor.build.fingerprint=samsung/gtowifiue/gtowifi:9/PPR1.180610.011/T290UEU2ASL4:user/release-keys
 ro.vendor.build.security_patch=2018-08-05
 ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
@@ -14,7 +14,7 @@ ro.board.platform=msm8937
 ro.product.vendor.manufacturer=samsung
 ro.product.vendor.model=SM-T290
 ro.product.vendor.brand=samsung
-ro.product.vendor.name=gtowifixx
+ro.product.vendor.name=gtowifiue
 ro.product.vendor.device=gtowifi
 # end build properties
 #
