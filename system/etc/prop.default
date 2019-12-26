@@ -40,8 +40,8 @@ ro.com.google.gmsversion=9_201909
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Fri Dec 6 23:16:55 KST 2019
-ro.bootimage.build.date.utc=1575641815
-ro.bootimage.build.fingerprint=samsung/gtowifixx/gtowifi:9/PPR1.180610.011/T290XXU2ASL4:user/release-keys
+ro.bootimage.build.date=Mon Dec 9 21:17:09 KST 2019
+ro.bootimage.build.date.utc=1575893829
+ro.bootimage.build.fingerprint=samsung/gtowifiue/gtowifi:9/PPR1.180610.011/T290UEU2ASL4:user/release-keys
 persist.sys.usb.config=none
 

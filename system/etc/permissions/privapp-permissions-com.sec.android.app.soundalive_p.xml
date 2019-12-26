@@ -30,5 +30,6 @@ applications that come with the platform
         <permission name="android.permission.ACCESS_NETWORK_STATE"/>
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
         <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
     </privapp-permissions>
 </permissions>
